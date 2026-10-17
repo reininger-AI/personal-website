@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0b1220">
+<meta name="description" content="Reid Reininger — software engineer building dependable web applications, data integrations, and systems.">
+<title>Reid Reininger — 02 — Warm Minimal</title>
+<style>
+:root{color-scheme:dark;--bg:#0b1220;--panel:#121d30;--muted:#a8b8ce;--fg:#f1f5fb;--accent:#8ad9ff;--line:#2a3850;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--fg);line-height:1.65}a{color:var(--accent)}a:hover{text-decoration-thickness:2px}
+.wrap{max-width:1060px;margin:auto;padding:0 24px}header{border-bottom:1px solid var(--line);position:sticky;top:0;background:#0b1220ed;backdrop-filter:blur(12px);z-index:10}nav{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:16px 0}nav strong{letter-spacing:-.04em}nav div{display:flex;gap:20px;flex-wrap:wrap}nav a{font-size:14px;text-decoration:none;color:var(--muted)}nav a:hover{color:white}
+.hero{padding:115px 0 93px}.eyebrow{font-size:13px;text-transform:uppercase;letter-spacing:.18em;color:var(--accent);font-weight:700}.hero h1{font-size:clamp(44px,7.5vw,88px);letter-spacing:-.065em;line-height:1.08;margin:15px 0 24px;max-width:890px}.hero h1{max-width:none}.hero-period{color:var(--accent)}.hero .hero-role{color:var(--fg);font-weight:650;font-size:clamp(20px,3vw,29px);margin:0 0 26px;letter-spacing:-.025em}.hero p{font-size:clamp(18px,2.3vw,22px);max-width:740px;color:var(--muted)}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}.button{display:inline-block;border:1px solid var(--line);border-radius:9px;padding:12px 19px;text-decoration:none;color:var(--fg);font-weight:650}.button.primary{color:#07121e;background:var(--accent);border-color:var(--accent)}.button:hover{transform:translateY(-1px)}
+section{padding:70px 0;border-top:1px solid var(--line)}h2{font-size:clamp(29px,4vw,42px);letter-spacing:-.045em;line-height:1.2;margin:0 0 20px}.section-intro{color:var(--muted);max-width:740px;margin-bottom:30px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:17px}.card{background:var(--panel);border:1px solid var(--line);border-radius:15px;padding:26px}.card h3{margin:0 0 7px;font-size:21px;letter-spacing:-.025em}.card p{margin:0;color:var(--muted)}.tag{display:inline-block;border:1px solid #385472;border-radius:99px;color:#c9e7ff;font-size:12px;padding:4px 10px;margin:14px 6px 0 0}
+.story{font-size:18px;max-width:800px;color:var(--muted)}.story strong{color:var(--fg)}.bullets{padding-left:22px;color:var(--muted)}.bullets li{margin:12px 0}.meta{color:var(--accent);font-size:14px;margin:0 0 15px}.foot{padding:35px 0;color:var(--muted);font-size:14px}.foot a{color:var(--muted)}:focus-visible{outline:3px solid var(--accent);outline-offset:4px}@media(max-width:690px){.grid{grid-template-columns:1fr}.hero{padding:75px 0 60px}section{padding:52px 0}nav div{gap:12px}nav a{font-size:12px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.button:hover{transform:none}}
+:root{color-scheme:light;--bg:#faf9f6;--panel:#ffffff;--muted:#505b65;--fg:#182b39;--accent:#a04f35;--line:#dad9d2;font-family:Georgia,"Times New Roman",serif}header{background:#faf9f6f2}nav, .eyebrow,.button,.tag,.meta{font-family:ui-sans-serif,system-ui,sans-serif}.hero{padding:145px 0 120px}.hero h1{font-size:clamp(64px,9vw,115px);font-weight:500;letter-spacing:-.07em;max-width:850px;line-height:.98}.hero .hero-role{font-family:ui-sans-serif,system-ui,sans-serif;font-size:21px}.card{border-radius:0;border-width:0 0 1px;background:transparent;padding:26px 0}.button{border-radius:0}.button.primary{color:white}.tag{color:#6b4539;border-color:#b5a399}.grid{gap:25px 42px}section{padding:90px 0}.hero p{max-width:660px}nav a{color:#505b65}nav a:hover{color:#182b39}
+:root{--bg:#f6f1e8;--panel:#ebe3d6;--muted:#575b51;--fg:#222d27;--accent:#36694e;--line:#d6cabc;font-family:system-ui,sans-serif}header{background:#f6f1e8f2}.hero h1{font-weight:800}.card{background:var(--panel);border:0;border-radius:25px;padding:26px}.button{border-radius:30px}.button.primary{color:#fff}.tag{color:#28543e;border-color:#a2b7a2}nav a{color:#575b51}nav a:hover{color:#222d27}</style>
+</head>
+<body>
+<header><nav class="wrap" aria-label="Main navigation"><strong>RR<span style="color:var(--accent)">.</span></strong><div><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#about">About</a><a href="#contact">Contact</a></div></nav></header>
+<main>
+<div class="wrap hero">
+<div class="eyebrow">02 — Warm Minimal · Portfolio concept</div>
+<h1>Reid Reininger<span class="hero-period">.</span></h1><p class="hero-role">Software Engineer <span aria-hidden="true">/</span> Full-Stack &amp; Systems</p>
+<p>Full-stack engineer with experience developing production web applications, data integration pipelines, and shared platforms. I care about clean abstractions, practical performance, and making systems easier for the next engineer to work on.</p>
+<div class="actions"><a class="button primary" href="#experience">Explore my work ↗</a><a class="button" href="https://github.com/reininger-AI" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div>
+</div>
+<section id="experience"><div class="wrap">
+<div class="eyebrow">Professional experience</div><h2>Delivering software in production.</h2>
+<p class="section-intro">My work spans application development, backend systems, and simplifying code that multiple customers and teams depend on.</p>
+<div class="card"><h3>Software Engineer · Sentry Dynamics</h3><p class="meta">Full-stack development · Enterprise web software</p>
+<ul class="bullets">
+<li>Consolidated separate customer-specific codebases into a shared multi-tenant application, reducing duplication and making improvements easier to maintain.</li>
+<li>Developed data integration pipelines and internal SaaS tools to connect systems and support operational workflows.</li>
+<li>Built and maintained client-facing web applications and REST APIs, working across database, server, and browser layers.</li>
+<li>Improved code organization and database performance, and helped onboard a newer engineer through regular pair programming.</li>
+</ul><div><span class="tag">C# / ASP.NET Core</span><span class="tag">SQL Server / EF</span><span class="tag">JavaScript</span><span class="tag">Azure</span></div></div>
+</div></section>
+<section id="projects"><div class="wrap">
+<div class="eyebrow">Selected technical work</div><h2>Curiosity beyond the application layer.</h2>
+<p class="section-intro">I enjoy understanding systems from first principles, not just assembling frameworks.</p>
+<div class="grid">
+<article class="card"><h3>tiny-machine · RISC-V</h3><p>A bare-metal RISC-V learning project running on QEMU's virt machine. Exploring the boot path, assembly startup, linker scripts, C runtime initialization, UART I/O, and debugging with GDB.</p><span class="tag">C</span><span class="tag">RISC-V assembly</span><span class="tag">QEMU</span></article>
+<article class="card"><h3>Local AI experimentation</h3><p>Hands-on exploration of local language models and inference tooling using Ollama, Docker, and Open WebUI, with an interest in practical AI-enabled software systems.</p><span class="tag">LLMs</span><span class="tag">Ollama</span><span class="tag">Docker</span></article>
+<article class="card"><h3>Application architecture</h3><p>Professional experience designing reusable APIs, unifying duplicated application logic, and developing integration workflows for real-world software products.</p><span class="tag">REST APIs</span><span class="tag">Multi-tenancy</span><span class="tag">Data integrations</span></article>
+<article class="card"><h3>Continuous learning</h3><p>Exploring SwiftUI, systems design, computer graphics, and the mathematical foundations behind modern computing and machine learning.</p><span class="tag">SwiftUI</span><span class="tag">Systems</span><span class="tag">Mathematics</span></article>
+</div></div></section>
+<section id="about"><div class="wrap">
+<div class="eyebrow">Background</div><h2>Grounded in computer science.</h2>
+<p class="story">I earned both a <strong>B.S. and M.S. in Computer Science from Washington State University</strong>. My professional background is in full-stack engineering, and I particularly enjoy work that rewards deep technical reasoning, thoughtful design, and collaboration. I'm interested in opportunities to build meaningful software with strong engineering teams, especially in the <strong>Seattle area or remote</strong>.</p>
+</div></section>
+<section id="contact"><div class="wrap">
+<div class="eyebrow">Get in touch</div><h2>Let's build something useful.</h2>
+<p class="section-intro">Interested in discussing software engineering opportunities, systems, or technical projects? Connect with me on GitHub.</p>
+<a class="button primary" href="https://github.com/reininger-AI" target="_blank" rel="noopener noreferrer">View my GitHub ↗</a>
+</div></section>
+</main>
+<footer class="wrap foot">© <span id="year">2026</span> Reid Reininger · <a href="https://github.com/reininger-AI/personal-website">Source</a></footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear()</script>
+</body></html>
